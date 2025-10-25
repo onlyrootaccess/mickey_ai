@@ -1,0 +1,36 @@
+# M.I.C.K.E.Y. AI Assistant - Core Dependencies
+# Python 3.11.9 EXCLUSIVELY - Verified Compatible
+
+# Core Framework
+fastapi==0.104.1
+uvicorn==0.24.0
+pydantic==2.5.0
+
+# Voice Processing
+openai-whisper==20231117
+piper-tts==0.0.2
+pyaudio==0.2.11
+librosa==0.10.1
+onnxruntime==1.16.0  # NEW: Required for Piper TTS
+
+# Computer Vision & Security
+opencv-python==4.8.1.78
+face-recognition==1.3.0
+numpy==1.26.0
+
+# GUI & Frontend
+customtkinter==5.2.0
+pillow==10.1.0
+pygame==2.5.2
+
+# AI & Intelligence
+groq==0.4.0
+nltk==3.8.1
+requests==2.31.0
+
+# System Control & Utilities
+pyautogui==0.9.54
+selenium==4.15.0
+psutil==5.9.6
+sqlalchemy==2.0.23
+pyperclip==1.8.2 
